@@ -1,19 +1,23 @@
 WORKFLOW, ACTION, DESIRED
-https://github.com/redhat-developer/alizer/blob/main/.github/workflows/CI.yml, DeLaGuardo/setup-graalvm@4.0, DeLaGuardo/setup-graalvm@a766aa7b5fcc0a801fa3d4fd521ca299c03c9c00
-https://github.com/redhat-developer/alizer/blob/main/.github/workflows/checkLang.yml, GuillaumeFalourd/diff-action@v1, GuillaumeFalourd/diff-action@b341507d1da990caceac1b3b31b8f55eebaa2e99
-https://github.com/redhat-developer/alizer/blob/main/.github/workflows/checkLang.yml, GuillaumeFalourd/diff-action@v1, GuillaumeFalourd/diff-action@b341507d1da990caceac1b3b31b8f55eebaa2e99
-https://github.com/redhat-developer/alizer/blob/main/.github/workflows/release.yml, DeLaGuardo/setup-graalvm@4.0, DeLaGuardo/setup-graalvm@a766aa7b5fcc0a801fa3d4fd521ca299c03c9c00
-https://github.com/redhat-developer/alizer/blob/main/.github/workflows/release.yml, battila7/get-version-action@v2, battila7/get-version-action@d97fbc34ceb64d1f5d95f4dfd6dce33521ccccf5
-https://github.com/redhat-developer/alizer/blob/main/.github/workflows/release.yml, lstocchi/simple-conventional-changelog@0.0.11, lstocchi/simple-conventional-changelog@13071c09073f5deddf03d44d9af6a8b0f81ef227
-https://github.com/redhat-developer/alizer/blob/main/.github/workflows/release.yml, ncipollo/release-action@v1, ncipollo/release-action@a2e71bdd4e7dab70ca26a852f29600c98b33153e
-https://github.com/redhat-developer/app-services-ansible/blob/main/.github/workflows/build.yaml, addnab/docker-run-action@v3, addnab/docker-run-action@4f65fabd2431ebc8d299f8e5a018d79a769ae185
+  https://github.com/redhat-developer/alizer/blob/main/.github/workflows/CI.yml, DeLaGuardo/setup-graalvm@4.0, DeLaGuardo/setup-graalvm@a766aa7b5fcc0a801fa3d4fd521ca299c03c9c00
+  https://github.com/redhat-developer/alizer/blob/main/.github/workflows/checkLang.yml, GuillaumeFalourd/diff-action@v1, GuillaumeFalourd/diff-action@b341507d1da990caceac1b3b31b8f55eebaa2e99
+  https://github.com/redhat-developer/alizer/blob/main/.github/workflows/checkLang.yml, GuillaumeFalourd/diff-action@v1, GuillaumeFalourd/diff-action@b341507d1da990caceac1b3b31b8f55eebaa2e99
+  https://github.com/redhat-developer/alizer/blob/main/.github/workflows/release.yml, DeLaGuardo/setup-graalvm@4.0, DeLaGuardo/setup-graalvm@a766aa7b5fcc0a801fa3d4fd521ca299c03c9c00
+  https://github.com/redhat-developer/alizer/blob/main/.github/workflows/release.yml, battila7/get-version-action@v2, battila7/get-version-action@d97fbc34ceb64d1f5d95f4dfd6dce33521ccccf5
+  https://github.com/redhat-developer/alizer/blob/main/.github/workflows/release.yml, lstocchi/simple-conventional-changelog@0.0.11, lstocchi/simple-conventional-changelog@13071c09073f5deddf03d44d9af6a8b0f81ef227
+  https://github.com/redhat-developer/alizer/blob/main/.github/workflows/release.yml, ncipollo/release-action@v1, ncipollo/release-action@a2e71bdd4e7dab70ca26a852f29600c98b33153e
+  https://github.com/redhat-developer/app-services-ansible/blob/main/.github/workflows/build.yaml, addnab/docker-run-action@v3, addnab/docker-run-action@4f65fabd2431ebc8d299f8e5a018d79a769ae185
+
 https://github.com/redhat-developer/app-services-ansible/blob/main/.github/workflows/build.yaml, mxschmitt/action-tmate@v3.13, mxschmitt/action-tmate@28f608baaa037465aa887c21a7924e9e6b66a9e0
 https://github.com/redhat-developer/app-services-ansible/blob/main/.github/workflows/build.yaml, dawidd6/action-ansible-playbook@v2, dawidd6/action-ansible-playbook@5d970176ea4bfd99a3f5004d48e293fe0994eda1
+
 https://github.com/redhat-developer/app-services-api-guidelines/blob/main/.github/workflows/release.yml, rlespinasse/github-slug-action@v4, rlespinasse/github-slug-action@a362e5fb42057a3a23a62218b050838f1bacca5d
+
 https://github.com/redhat-developer/app-services-cli/blob/main/.github/workflows/add-issue-to-project.yml, srggrs/assign-one-project-github-action@1.3.1, srggrs/assign-one-project-github-action@65a8ddab497df42ef268001e67bbf976f8fd39e1
 https://github.com/redhat-developer/app-services-cli/blob/main/.github/workflows/changelog.yml, craicoverflow/install-git-chglog@v1, craicoverflow/install-git-chglog@6d338c1d96dcbf12a2115fbe8e5b9817293aae33
 https://github.com/redhat-developer/app-services-cli/blob/main/.github/workflows/changelog.yml, stefanzweifel/git-auto-commit-action@v4, stefanzweifel/git-auto-commit-action@3ea6ae190baf489ba007f7c92608f33ce20ef04a
 https://github.com/redhat-developer/app-services-cli/blob/main/.github/workflows/commit_lint.yml, wagoid/commitlint-github-action@v4, wagoid/commitlint-github-action@416045160973f9fff174ac6698412cfe7181c3f3
+
 https://github.com/redhat-developer/app-services-cli/blob/main/.github/workflows/gobuild.yml, golangci/golangci-lint-action@v3, golangci/golangci-lint-action@08e2f20817b15149a52b5b3ebe7de50aff2ba8c5
 https://github.com/redhat-developer/app-services-cli/blob/main/.github/workflows/issue-labeler.yml, github/issue-labeler@v2.5, github/issue-labeler@6ca237433dbbb8e475241b7f38f4600d9e296c57
 https://github.com/redhat-developer/app-services-cli/blob/main/.github/workflows/modular-docs-publish.yml, JamesIves/github-pages-deploy-action@v4.4.1, JamesIves/github-pages-deploy-action@ba1486788b0490a235422264426c45848eac35c6
@@ -21,6 +25,7 @@ https://github.com/redhat-developer/app-services-cli/blob/main/.github/workflows
 https://github.com/redhat-developer/app-services-cli/blob/main/.github/workflows/release.yml, goreleaser/goreleaser-action@v3, goreleaser/goreleaser-action@b508e2e3ef3b19d4e4146d4f8fb3ba9db644a757
 https://github.com/redhat-developer/app-services-cli/blob/main/.github/workflows/release.yml, goreleaser/goreleaser-action@v3, goreleaser/goreleaser-action@b508e2e3ef3b19d4e4146d4f8fb3ba9db644a757
 https://github.com/redhat-developer/app-services-cli/blob/main/.github/workflows/release.yml, peter-evans/repository-dispatch@v2, peter-evans/repository-dispatch@26b39ed245ab8f31526069329e112ab2fb224588
+
 https://github.com/redhat-developer/app-services-guides/blob/main/.github/workflows/modular-docs-check.yml, ruby/setup-ruby@v1, ruby/setup-ruby@ee26e27437bde475b19a6bf8cb73c9fa658876a2
 https://github.com/redhat-developer/app-services-guides/blob/main/.github/workflows/modular-docs-publish.yml, ruby/setup-ruby@v1, ruby/setup-ruby@ee26e27437bde475b19a6bf8cb73c9fa658876a2
 https://github.com/redhat-developer/app-services-guides/blob/main/.github/workflows/modular-docs-publish.yml, JamesIves/github-pages-deploy-action@4.1.5, JamesIves/github-pages-deploy-action@0f24da7de3e7e135102609a4c9633b025be8411b
